@@ -1,5 +1,7 @@
-const userHeight = 1.7;
-const userWeight = 68;
+let bodyWeight = 68;
+let bmiHeight = 1.7; 
+
+let bmi = bodyWeight / (bmiHeight * bmiHeight);
 
 // 計算
-console.log((userWeight / (userHeight * userHeight)).toFixed(2));
+console.log(bmi);
